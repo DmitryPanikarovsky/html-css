@@ -1,0 +1,60 @@
+.blog {
+    background-color: #111216;
+
+    &__content-text {
+        max-width: 70%;
+        font-size: 18px;
+        line-height: 27px;
+        margin: 32px 0;
+    }
+
+    .news {
+        margin-top: 48px;
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+
+        &__item {
+            padding: 35px 40px 35px 35px;
+            background-color: #1e1e2a;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            border-radius: $border-radius;
+        }
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            width: 65%;
+
+            &-text {
+                font-size: 16px;
+                line-height: 1.5;
+                margin: 0;
+            }
+        }
+
+        &__head {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+            font-size: 16px;
+            line-height: 1.2;
+            color: $color-hover;
+    
+            &-info {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+            }
+        }
+    
+        &__title {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+    }
+}

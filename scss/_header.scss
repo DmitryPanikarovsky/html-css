@@ -1,0 +1,58 @@
+.header {
+    background-color: $color-bg-medium;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 0;
+    }
+
+    .menu {
+        display: flex;
+        gap: 24px;
+
+        &__item {
+            padding: 8px 16px;
+
+            &_active {
+                border: 1px solid $color-border-stroke;
+                border-radius: $border-radius;
+            }
+        }
+
+        &__link {
+            font-size: 18px;
+            line-height: 120%;
+            transition: $transition;
+
+            &:hover {
+                color: $color-hover;
+            }
+        }
+    }
+
+    &__login {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        div {
+            font-size: 18px;
+            line-height: 120%;
+            transition: $transition;
+        }
+
+        &:hover {
+            div {
+                color: $color-hover;
+            }
+        }
+    }
+
+    &__menu-mobile-button {
+        display: none;
+        background: none;
+        border: none;
+    }
+}

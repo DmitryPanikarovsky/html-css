@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Школа разработки PurpleShool</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__content">
+                    <a href="#" class="logo">
+                        <img src="./images/logo/logo.svg" alt="Логотип PurpleShool" class="logo__img">
+                    </a>
+                    <nav>
+                        <ul class="menu">
+                            <li class="menu__item menu__item_active">
+                                <a href="#" class="menu__link">Курсы</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">О школе</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Блог</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">База знаний</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a href="#" class="header__login">
+                        <img src="./images/header/user.svg" alt="Иконка пользователя">
+                        <div>Вход</div>
+                    </a>
+                    <button class="header__menu-mobile-button">
+                        <img src="./images/header/menu.svg" alt="Мобильное меню">
+                    </button>
+                </div>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <div class="hero__left">
+                        <h1 class="hero__title">
+                            Доступные курсы по<br />
+                            <span class="hero__title_gradient">Разработке и DevOps</span>
+                        </h1>
+                        <div class="hero__buttons">
+                            <a href="#" class="button button_color">Выбрать курс</a>
+                            <a href="#" class="button button_no-color">О школе</a>
+                        </div>
+                    </div>
+                    <div class="hero__right">
+                        <img src="./images/hero/video.png" alt="Видео с автором">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <main class="main">
+            <section class="section catalog">
+                <div class="container">
+                    <div class="catalog__content">
+                        <div class="subtitle">Выбрать курс</div>
+                        <h2 class="title">Каталог курсов</h2>
+                        <ul class="direction">
+                            <li class="direction__item">
+                                <button class="button button_direction button_no-color button_active">Все</button>
+                            </li>
+                            <li class="direction__item">
+                                <button class="button button_direction button_no-color">Frontend</button>
+                            </li>
+                            <li class="direction__item">
+                                <button class="button button_direction button_no-color">Backend</button>
+                            </li>
+                            <li class="direction__item">
+                                <button class="button button_direction button_no-color">DevOps</button>
+                            </li>
+                            <li class="direction__item">
+                                <button class="button button_direction button_no-color">Soft Skills</button>
+                            </li>
+                        </ul>
+                        <ul class="catalog__list">
+                            <li class="catalog__item">
+                                <div class="card">
+                                    <div class="card__cover">
+                                        <img src="./images/catalog/cover.png" alt="Обложка курса" class="card__img">
+                                    </div>
+                                    <div class="card__info">
+                                        <h3 class="card__info-title">React + Next.js - с нуля</h3>
+                                        <div class="card__info-author">Антон Ларичев</div>
+                                        <div class="card__info-time">
+                                            <img src="./images/catalog/time.svg" alt="Иконка часов">
+                                            <div>18 часов лекций</div>
+                                        </div>
+                                        <div class="card__info-general">
+                                            <div class="card__info-rating">
+                                                <img src="./images/catalog/star.svg" alt="Иконка звёздочка">
+                                                <div class="">4.9</div>
+                                            </div>
+                                            <div class="card__info-direction">Frontend</div>
+                                        </div>
+                                    </div>
+                                    <div class="card__price">
+                                        <div class="card__price-sum">от 1890 ₽</div>
+                                        <button class="button button_color">Подробнее</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="catalog__item">
+                                <div class="card">
+                                    <div class="card__cover">
+                                        <img src="./images/catalog/cover.png" alt="Обложка курса" class="card__img">
+                                    </div>
+                                    <div class="card__info">
+                                        <h3 class="card__info-title">React + Next.js - с нуля</h3>
+                                        <div class="card__info-author">Антон Ларичев</div>
+                                        <div class="card__info-time">
+                                            <img src="./images/catalog/time.svg" alt="Иконка часов">
+                                            <div>18 часов лекций</div>
+                                        </div>
+                                        <div class="card__info-general">
+                                            <div class="card__info-rating">
+                                                <img src="./images/catalog/star.svg" alt="Иконка звёздочка">
+                                                <div class="">4.9</div>
+                                            </div>
+                                            <div class="card__info-direction">Frontend</div>
+                                        </div>
+                                    </div>
+                                    <div class="card__price">
+                                        <div class="card__price-sum">от 1890 ₽</div>
+                                        <button class="button button_color">Подробнее</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="catalog__item">
+                                <div class="card">
+                                    <div class="card__cover">
+                                        <img src="./images/catalog/cover.png" alt="Обложка курса" class="card__img">
+                                    </div>
+                                    <div class="card__info">
+                                        <h3 class="card__info-title">React + Next.js - с нуля</h3>
+                                        <div class="card__info-author">Антон Ларичев</div>
+                                        <div class="card__info-time">
+                                            <img src="./images/catalog/time.svg" alt="Иконка часов">
+                                            <div>18 часов лекций</div>
+                                        </div>
+                                        <div class="card__info-general">
+                                            <div class="card__info-rating">
+                                                <img src="./images/catalog/star.svg" alt="Иконка звёздочка">
+                                                <div class="">4.9</div>
+                                            </div>
+                                            <div class="card__info-direction">Frontend</div>
+                                        </div>
+                                    </div>
+                                    <div class="card__price">
+                                        <div class="card__price-sum">от 1890 ₽</div>
+                                        <button class="button button_color">Подробнее</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="catalog__item">
+                                <div class="card">
+                                    <div class="card__cover">
+                                        <img src="./images/catalog/cover.png" alt="Обложка курса" class="card__img">
+                                    </div>
+                                    <div class="card__info">
+                                        <h3 class="card__info-title">React + Next.js - с нуля</h3>
+                                        <div class="card__info-author">Антон Ларичев</div>
+                                        <div class="card__info-time">
+                                            <img src="./images/catalog/time.svg" alt="Иконка часов">
+                                            <div>18 часов лекций</div>
+                                        </div>
+                                        <div class="card__info-general">
+                                            <div class="card__info-rating">
+                                                <img src="./images/catalog/star.svg" alt="Иконка звёздочка">
+                                                <div class="">4.9</div>
+                                            </div>
+                                            <div class="card__info-direction">Frontend</div>
+                                        </div>
+                                    </div>
+                                    <div class="card__price">
+                                        <div class="card__price-sum">от 1890 ₽</div>
+                                        <button class="button button_color">Подробнее</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="catalog__item">
+                                <div class="card">
+                                    <div class="card__cover">
+                                        <img src="./images/catalog/cover.png" alt="Обложка курса" class="card__img">
+                                    </div>
+                                    <div class="card__info">
+                                        <h3 class="card__info-title">React + Next.js - с нуля</h3>
+                                        <div class="card__info-author">Антон Ларичев</div>
+                                        <div class="card__info-time">
+                                            <img src="./images/catalog/time.svg" alt="Иконка часов">
+                                            <div>18 часов лекций</div>
+                                        </div>
+                                        <div class="card__info-general">
+                                            <div class="card__info-rating">
+                                                <img src="./images/catalog/star.svg" alt="Иконка звёздочка">
+                                                <div class="">4.9</div>
+                                            </div>
+                                            <div class="card__info-direction">Frontend</div>
+                                        </div>
+                                    </div>
+                                    <div class="card__price">
+                                        <div class="card__price-sum">от 1890 ₽</div>
+                                        <button class="button button_color">Подробнее</button>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="section blog">
+                <div class="container">
+                    <div class="blog__content">
+                        <div class="subtitle">Блог и социальные сети</div>
+                        <h2 class="title">Полезные материалы</h2>
+                        <p class="blog__content-text">Каждую неделю мы публикуем новости, обновления, а так же дополнительные
+                            полезные материалы в социальных сетях:</p>
+                        <div class="social-links">
+                            <a href="#" class="button button_social button_no-color">
+                                <img src="./images/socials/telegram.svg" alt="Телеграм" class="footer__social-img">
+                            </a>
+                            <a href="#" class="button button_social button_no-color">
+                                <img src="./images/socials/vk.svg" alt="Вконтакте" class="footer__social-img">
+                            </a>
+                            <a href="#" class="button button_social button_no-color">
+                                <img src="./images/socials/youtube.svg" alt="Ютуб" class="footer__social-img">
+                            </a>
+                        </div>
+                        <ul class="news">
+                            <li class="news__item">
+                                <div class="news__content">
+                                    <div class="news__head">
+                                        <div class="news__head-info">
+                                            <img src="./images/blog/Calendar.svg" alt="Дата публикации">
+                                            <div>06 мая 2021</div>
+                                        </div>
+                                        <div class="news__head-info">
+                                            <img src="./images/blog/Eye.svg" alt="Количество просмотров">
+                                            <div>2 584 просмотра</div>
+                                        </div>
+                                    </div>
+                                    <h2 class="news__title">Критика в работе – ваш друг, но не всегда</h2>
+                                    <p class="news__content-text">Когда делаешь код ревью иногда встречаешь с тем, что даешь
+                                        конструктивную критику и она воспринимается в штыки, словно
+                                        это личное оскорбление. Человек всеми силами пытается сопротивляться обратной связи и не
+                                        готов слушать аргументы. Тут
+                                        варианта два: или обратная связь дана некорректно, или человек не воспринимает критику. В
+                                        этом посте я хочу
+                                        сосредоточиться на том, как работать с критикой.</p>
+                                </div>
+                                <button class="button button_blog button_no-color">Читать</button>
+                            </li>
+                            <li class="news__item">
+                                <div class="news__content">
+                                    <div class="news__head">
+                                        <div class="news__head-info">
+                                            <img src="./images/blog/Calendar.svg" alt="Дата публикации">
+                                            <div>06 мая 2021</div>
+                                        </div>
+                                        <div class="news__head-info">
+                                            <img src="./images/blog/Eye.svg" alt="Количество просмотров">
+                                            <div>2 584 просмотра</div>
+                                        </div>
+                                    </div>
+                                    <h2 class="news__title">Критика в работе – ваш друг, но не всегда</h2>
+                                    <p class="news__content-text">Когда делаешь код ревью иногда встречаешь с тем, что даешь
+                                        конструктивную критику и она воспринимается в штыки, словно
+                                        это личное оскорбление. Человек всеми силами пытается сопротивляться обратной связи и не
+                                        готов слушать аргументы. Тут
+                                        варианта два: или обратная связь дана некорректно, или человек не воспринимает критику. В
+                                        этом посте я хочу
+                                        сосредоточиться на том, как работать с критикой.</p>
+                                </div>
+                                <button class="button button_blog button_no-color">Читать</button>
+                            </li>
+                            <li class="news__item">
+                                <div class="news__content">
+                                    <div class="news__head">
+                                        <div class="news__head-info">
+                                            <img src="./images/blog/Calendar.svg" alt="Дата публикации">
+                                            <div>06 мая 2021</div>
+                                        </div>
+                                        <div class="news__head-info">
+                                            <img src="./images/blog/Eye.svg" alt="Количество просмотров">
+                                            <div>2 584 просмотра</div>
+                                        </div>
+                                    </div>
+                                    <h2 class="news__title">Критика в работе – ваш друг, но не всегда</h2>
+                                    <p class="news__content-text">Когда делаешь код ревью иногда встречаешь с тем, что даешь
+                                        конструктивную критику и она воспринимается в штыки, словно
+                                        это личное оскорбление. Человек всеми силами пытается сопротивляться обратной связи и не
+                                        готов слушать аргументы. Тут
+                                        варианта два: или обратная связь дана некорректно, или человек не воспринимает критику. В
+                                        этом посте я хочу
+                                        сосредоточиться на том, как работать с критикой.</p>
+                                </div>
+                                <button class="button button_blog button_no-color">Читать</button>
+                            </li>
+                        </ul>
+                        <button class="button button_no-color button_center">Все публикации</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__social">
+                        <a href="#" class="logo">
+                            <img src="./images/logo/logo.svg" alt="" class="logo__img">
+                        </a>
+                        <div class="social-links">
+                            <a href="#" class="button button_social button_no-color">
+                                <img src="./images/socials/telegram.svg" alt="Телеграм" class="footer__social-img">
+                            </a>
+                            <a href="#" class="button button_social button_no-color">
+                                <img src="./images/socials/vk.svg" alt="Вконтакте" class="footer__social-img">
+                            </a>
+                            <a href="#" class="button button_social button_no-color">
+                                <img src="./images/socials/youtube.svg" alt="Ютуб" class="footer__social-img">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__menu">
+                        <div>
+                            <div class="footer__menu-head">Меню</div>
+                            <ul class="menu-small">
+                                <li class="menu-small__item">
+                                    <a href="#" class="menu-small__link">Курсы</a>
+                                </li>
+                                <li class="menu-small__item">
+                                    <a href="#" class="menu-small__link">О школе</a>
+                                </li>
+                                <li class="menu-small__item">
+                                    <a href="#" class="menu-small__link">Блог</a>
+                                </li>
+                                <li class="menu-small__item">
+                                    <a href="#" class="menu-small__link">База знаний</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="footer__menu-head">Документы</div>
+                            <ul class="menu-small">
+                                <li class="menu-small__item">
+                                    <a href="#" class="menu-small__link">Договор оферты</a>
+                                </li>
+                                <li class="menu-small__item">
+                                    <a href="#" class="menu-small__link">Политикка конфиденциальности</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="footer__menu-head">Реквизиты</div>
+                            <ul class="menu-small">
+                                <li class="menu-small__item menu-small__item_no-link">
+                                    ИП Ларичев Антон Андреевич
+                                </li>
+                                <li class="menu-small__item menu-small__item_no-link">
+                                    ИНН 773373765379
+                                </li>
+                                <li class="menu-small__item">
+                                    <a href="mailto:contact@purpleschool.ru" class="menu-small__link">contact@purpleschool.ru</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__copyright">PurpleSchool © 2020 - 2023 Все права защищены</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

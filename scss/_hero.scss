@@ -1,0 +1,29 @@
+.hero {
+    background-color: $color-bg-medium;
+    padding: 30px 0 60px;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 1;
+        color: $color-text;
+        margin-bottom: 32px;
+
+        &_gradient {
+            color: transparent;    
+            background-clip: text;
+            background-image: $gradient;
+        }
+    }
+    
+    &__buttons {
+        display: flex;
+        gap: 32px;
+    }
+}
