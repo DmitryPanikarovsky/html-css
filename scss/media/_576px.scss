@@ -82,6 +82,10 @@
             width: 100%;
         }
 
+        .title {
+            font-size: 24px;
+        }
+
         input, select, textarea {
             font-size: 12px;
         }
@@ -90,6 +94,10 @@
         select::placeholder,
         textarea::placeholder {
             font-size: 12px;
+        }
+
+        textarea {
+            height: 150px;
         }
     }
 

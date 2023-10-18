@@ -598,6 +598,7 @@ button {
 }
 .feedback textarea {
   resize: none;
+  height: 200px;
 }
 .feedback .button {
   width: 100%;
@@ -834,6 +835,9 @@ button {
   .feedback__content {
     width: 100%;
   }
+  .feedback .title {
+    font-size: 24px;
+  }
   .feedback input, .feedback select, .feedback textarea {
     font-size: 12px;
   }
@@ -853,6 +857,9 @@ button {
   .feedback select::placeholder,
   .feedback textarea::placeholder {
     font-size: 12px;
+  }
+  .feedback textarea {
+    height: 150px;
   }
   .footer {
     padding: 20px 0 100px;
