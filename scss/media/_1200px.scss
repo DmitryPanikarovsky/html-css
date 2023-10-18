@@ -1,0 +1,51 @@
+@media (max-width: 1200px) {
+    .header {
+        &__content {
+            padding: 25px 0;
+        }
+
+        .menu {
+            display: none;
+        }
+
+        &__login {
+            display: none;
+        }
+
+        &__menu-mobile-button {
+            display: block;
+        }
+    }
+
+    .hero {
+        padding: 0 0 40px;
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__left {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__title {
+            font-size: 52px;
+        }
+    }
+
+    .blog {
+        padding: 50px 0;
+
+        .button_center {
+            margin: 32px auto 0;
+        }
+    }
+
+    .footer {
+        padding: 40px 0 60px;
+    }
+}

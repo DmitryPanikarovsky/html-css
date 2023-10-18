@@ -15,11 +15,6 @@
         color: $color-text;
         margin-bottom: 32px;
 
-        &_gradient {
-            color: transparent;    
-            background-clip: text;
-            background-image: $gradient;
-        }
     }
     
     &__buttons {

@@ -48,6 +48,13 @@ button {
   padding: 0 24px;
 }
 
+.gradient {
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: linear-gradient(93.33deg, #D77BE5, #BE63E5, #6C38CC);
+}
+
 .button {
   font-family: "Fira Sans";
   font-size: 18px;
@@ -97,6 +104,10 @@ button {
   line-height: 1.2;
   font-weight: 400;
 }
+.title_z36 {
+  margin-top: 70px;
+  font-size: 36px;
+}
 
 @media (max-width: 992px) {
   .title {
@@ -106,6 +117,10 @@ button {
 @media (max-width: 576px) {
   .title {
     font-size: 34px;
+  }
+  .title_z36 {
+    margin-top: 50px;
+    font-size: 30px;
   }
 }
 .social-links {
@@ -124,7 +139,7 @@ button {
   border: 1px solid #4D5064;
   border-radius: 10px;
   font-size: 18px;
-  color: #FAFAFA;
+  white-space: nowrap;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
   cursor: pointer;
@@ -223,12 +238,6 @@ button {
   color: #FAFAFA;
   margin-bottom: 32px;
 }
-.hero__title_gradient {
-  color: transparent;
-  -webkit-background-clip: text;
-          background-clip: text;
-  background-image: linear-gradient(93.33deg, #D77BE5, #BE63E5, #6C38CC);
-}
 .hero__buttons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -240,16 +249,13 @@ button {
   background-color: #111216;
 }
 .catalog .direction {
-  margin-top: 48px;
+  margin: 48px -24px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 24px;
-  white-space: nowrap;
+  padding: 0 24px;
   overflow: scroll;
-  margin-right: -24px;
-  margin-left: -24px;
-  padding-left: 24px;
 }
 .catalog .direction::-webkit-scrollbar {
   display: none;
@@ -257,7 +263,7 @@ button {
 .catalog__list {
   margin-top: 32px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(312px, 1fr));
   gap: 50px;
 }
 .catalog .card {
@@ -340,9 +346,75 @@ button {
   background-color: #17171f;
 }
 .about__content-text {
+  max-width: 70%;
   font-size: 18px;
   line-height: 27px;
   margin: 32px 0;
+}
+.about__feature {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(312px, 1fr));
+  gap: 50px;
+}
+.about__feature-item {
+  padding: 48px 24px;
+  background-color: #23212f;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+}
+.about__feature-item div {
+  font-size: 46px;
+  font-weight: 700;
+}
+.about__feature-item span {
+  font-size: 18px;
+}
+.about__school {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(312px, 1fr));
+  gap: 50px;
+}
+.about__school-item {
+  background-color: #23212f;
+  padding: 24px 32px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 24px;
+}
+.about .points {
+  font-size: 54px;
+}
+.about .stars {
+  margin-top: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2px;
 }
 
 .blog {
@@ -531,6 +603,9 @@ button {
   }
 }
 @media (max-width: 992px) {
+  .section {
+    padding: 70px 0;
+  }
   .blog__content-text {
     margin: 12px 0 22px;
   }
@@ -562,11 +637,17 @@ button {
   }
 }
 @media (max-width: 768px) {
+  .section {
+    padding: 50px 0;
+  }
   .hero__title {
     font-size: 42px;
   }
 }
 @media (max-width: 576px) {
+  .section {
+    padding: 30px 0;
+  }
   .header__content {
     padding: 15px 0;
   }
@@ -614,6 +695,9 @@ button {
   }
   .blog .button_center {
     width: 100%;
+  }
+  .catalog .button {
+    padding: 12px 24px;
   }
   .footer {
     padding: 20px 0 100px;

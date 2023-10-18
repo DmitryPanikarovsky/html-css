@@ -2,15 +2,12 @@
     background-color: #111216;
 
     .direction {
-        margin-top: 48px;
+        margin: 48px -24px 0;
         display: flex;
         gap: 24px;
-        white-space: nowrap;
+        padding: 0 24px;
         overflow: scroll;
-        margin-right: -24px;
-        margin-left: -24px;
-        padding-left: 24px;
-
+        
         &::-webkit-scrollbar {
             display: none;
         }
@@ -19,9 +16,8 @@
     &__list {
         margin-top: 32px;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(312px, 1fr));
         gap: 50px;
-
     }
     
     .card {

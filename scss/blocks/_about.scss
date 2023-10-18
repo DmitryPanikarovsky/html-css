@@ -1,0 +1,65 @@
+.about {
+    background-color: #17171f;
+
+    &__content-text {
+        max-width: 70%;
+        font-size: 18px;
+        line-height: 27px;
+        margin: 32px 0;
+    }
+
+    &__feature {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(312px, 1fr));
+        gap: 50px;
+
+        &-item {
+            padding: 48px 24px;
+            background-color: #23212f;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+    
+            div {
+                font-size: 46px;
+                font-weight: 700;
+            }
+    
+            span {
+                font-size: 18px;
+            }
+        }
+    }
+
+    &__school {
+        margin-top: 32px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(312px, 1fr));
+        gap: 50px;
+
+        &-item {
+            background-color: #23212f;
+            padding: 24px 32px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 24px;
+        }
+    }
+
+    .points {
+        font-size: 54px;
+    }
+
+    .stars {
+        margin-top: 8px;
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+
+}
