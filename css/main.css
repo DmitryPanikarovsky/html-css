@@ -343,7 +343,7 @@ button {
 }
 
 .about {
-  background-color: #17171f;
+  background-color: #20202b;
 }
 .about__content-text {
   max-width: 70%;
@@ -358,7 +358,7 @@ button {
 }
 .about__feature-item {
   padding: 48px 24px;
-  background-color: #23212f;
+  background-color: #181720;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -389,7 +389,7 @@ button {
   gap: 50px;
 }
 .about__school-item {
-  background-color: #23212f;
+  background-color: #181720;
   padding: 24px 32px;
   border-radius: 10px;
   display: -webkit-box;
