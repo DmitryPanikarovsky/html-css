@@ -8,4 +8,10 @@
             font-size: 42px;
         }
     }
+
+    .feedback {
+        &__content {
+            width: 90%;
+        }
+    }
 }

@@ -77,6 +77,22 @@
         }
     }
 
+    .feedback {
+        &__content {
+            width: 100%;
+        }
+
+        input, select, textarea {
+            font-size: 12px;
+        }
+
+        input::placeholder,
+        select::placeholder,
+        textarea::placeholder {
+            font-size: 12px;
+        }
+    }
+
     .footer {
         padding: 20px 0 100px;
 

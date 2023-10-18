@@ -29,6 +29,12 @@
         }
     }
 
+    .feedback {
+        &__content {
+            width: 80%;
+        }
+    }
+
     .footer {
         &__menu {
             margin-top: 40px;
