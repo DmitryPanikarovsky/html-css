@@ -541,7 +541,9 @@ button {
   font-size: 12px;
   color: #AFB2BF;
 }
-.feedback input, .feedback select, .feedback textarea {
+.feedback input,
+.feedback select,
+.feedback textarea {
   background-color: #2e2d3d;
   border: none;
   outline: none;
@@ -550,11 +552,14 @@ button {
   border-radius: 10px;
   color: #FAFAFA;
 }
-.feedback input, .feedback select {
+.feedback input,
+.feedback select {
   padding: 27px 48px 12px;
 }
 .feedback textarea {
   padding: 27px 24px 12px;
+  resize: none;
+  height: 200px;
 }
 .feedback .textarea-block {
   position: relative;
@@ -595,10 +600,6 @@ button {
 }
 .feedback option {
   font-family: "Fira Sans", sans-serif;
-}
-.feedback textarea {
-  resize: none;
-  height: 200px;
 }
 .feedback .button {
   width: 100%;
@@ -834,6 +835,7 @@ button {
   }
   .feedback__content {
     width: 100%;
+    padding: 48px 10px;
   }
   .feedback .title {
     font-size: 24px;
